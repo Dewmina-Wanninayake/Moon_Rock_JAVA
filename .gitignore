@@ -1,0 +1,35 @@
+# Eclipse IDE
+.classpath
+.project
+.settings/
+*.class
+
+# Build directories
+build/
+dist/
+*.war
+*.jar
+
+# Java
+bin/
+out/
+
+# IDE
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.sqlite
+*.log
+
+# Environment
+.env
+.env.local

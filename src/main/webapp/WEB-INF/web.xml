@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+
+<servlet>
+	<servlet-name>AddAdmin</servlet-name>
+	<servlet-class>servlet.AddAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddAdmin</servlet-name>
+	<url-pattern>/AddAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddCustomer</servlet-name>
+	<servlet-class>servlet.AddCustomer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddCustomer</servlet-name>
+	<url-pattern>/AddCustomer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>addnewCustomer</servlet-name>
+	<servlet-class>servlet.addnewCustomer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>addnewCustomer</servlet-name>
+	<url-pattern>/addnewCustomer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddPackage</servlet-name>
+	<servlet-class>servlet.AddPackage</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddPackage</servlet-name>
+	<url-pattern>/AddPackage</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddPayment</servlet-name>
+	<servlet-class>servlet.AddPayment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddPayment</servlet-name>
+	<url-pattern>/AddPayment</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AddStaff</servlet-name>
+	<servlet-class>servlet.AddStaff</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AddStaff</servlet-name>
+	<url-pattern>/AddStaff</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AdminCount</servlet-name>
+	<servlet-class>servlet.AdminCount</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminCount</servlet-name>
+	<url-pattern>/AdminCount</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AdminCustomerTbl</servlet-name>
+	<servlet-class>servlet.AdminCustomerTbl</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminCustomerTbl</servlet-name>
+	<url-pattern>/AdminCustomerTbl</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AdminServiceTbl</servlet-name>
+	<servlet-class>servlet.AdminServiceTbl</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminServiceTbl</servlet-name>
+	<url-pattern>/AdminServiceTbl</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AdminStaffTbl</servlet-name>
+	<servlet-class>servlet.AdminStaffTbl</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminStaffTbl</servlet-name>
+	<url-pattern>/AdminStaffTbl</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>AdminTable</servlet-name>
+	<servlet-class>servlet.AdminTable</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>AdminTable</servlet-name>
+	<url-pattern>/AdminTable</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>BookingServlet</servlet-name>
+	<servlet-class>servlet.BookingServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>BookingServlet</servlet-name>
+	<url-pattern>/BookingServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>CustomerCount</servlet-name>
+	<servlet-class>servlet.CustomerCount</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>CustomerCount</servlet-name>
+	<url-pattern>/CustomerCount</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>CustomerLogin</servlet-name>
+	<servlet-class>servlet.CustomerLogin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>CustomerLogin</servlet-name>
+	<url-pattern>/CustomerLogin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteAdmin</servlet-name>
+	<servlet-class>servlet.DeleteAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteAdmin</servlet-name>
+	<url-pattern>/DeleteAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteCustomer</servlet-name>
+	<servlet-class>servlet.DeleteCustomer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteCustomer</servlet-name>
+	<url-pattern>/DeleteCustomer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteReservation</servlet-name>
+	<servlet-class>servlet.DeleteReservation</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteReservation</servlet-name>
+	<url-pattern>/DeleteReservation</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteRoom</servlet-name>
+	<servlet-class>servlet.DeleteRoom</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteRoom</servlet-name>
+	<url-pattern>/DeleteRoom</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteService</servlet-name>
+	<servlet-class>servlet.DeleteService</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteService</servlet-name>
+	<url-pattern>/DeleteService</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>DeleteStaff</servlet-name>
+	<servlet-class>servlet.DeleteStaff</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>DeleteStaff</servlet-name>
+	<url-pattern>/DeleteStaff</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>LogoutServlet</servlet-name>
+	<servlet-class>servlet.LogoutServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>LogoutServlet</servlet-name>
+	<url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ManagerReservation</servlet-name>
+	<servlet-class>servlet.ManagerReservation</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ManagerReservation</servlet-name>
+	<url-pattern>/ManagerReservation</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>ManagerRoom</servlet-name>
+	<servlet-class>servlet.ManagerRoom</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>ManagerRoom</servlet-name>
+	<url-pattern>/ManagerRoom</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>RemoveViewedItemServlet</servlet-name>
+	<servlet-class>servlet.RemoveViewedItemServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>RemoveViewedItemServlet</servlet-name>
+	<url-pattern>/RemoveViewedItemServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>SingleDataButton</servlet-name>
+	<servlet-class>servlet.SingleDataButton</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>SingleDataButton</servlet-name>
+	<url-pattern>/SingleDataButton</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>TrackViewedItemServlet</servlet-name>
+	<servlet-class>servlet.TrackViewedItemServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>TrackViewedItemServlet</servlet-name>
+	<url-pattern>/TrackViewedItemServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateAdmin</servlet-name>
+	<servlet-class>servlet.UpdateAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateAdmin</servlet-name>
+	<url-pattern>/UpdateAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateCustomer</servlet-name>
+	<servlet-class>servlet.UpdateCustomer</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateCustomer</servlet-name>
+	<url-pattern>/UpdateCustomer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateCustomerbyAdmin</servlet-name>
+	<servlet-class>servlet.UpdateCustomerbyAdmin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateCustomerbyAdmin</servlet-name>
+	<url-pattern>/UpdateCustomerbyAdmin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateService</servlet-name>
+	<servlet-class>servlet.UpdateService</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateService</servlet-name>
+	<url-pattern>/UpdateService</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UpdateStaff</servlet-name>
+	<servlet-class>servlet.UpdateStaff</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UpdateStaff</servlet-name>
+	<url-pattern>/UpdateStaff</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UserInfo</servlet-name>
+	<servlet-class>servlet.UserInfo</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UserInfo</servlet-name>
+	<url-pattern>/UserInfo</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>UserPayment</servlet-name>
+	<servlet-class>servlet.UserPayment</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>UserPayment</servlet-name>
+	<url-pattern>/UserPayment</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateSessionDatesServlet</servlet-name>
+    <servlet-class>servlet.UpdateSessionDatesServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateSessionDatesServlet</servlet-name>
+    <url-pattern>/UpdateSessionDatesServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
